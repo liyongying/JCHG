@@ -16,7 +16,7 @@ var game = {
         var data = this.getArr();
         var html = '';
         for(var i=0; i< data.length;i++){
-            html+='<li><img src="https://raw.githubusercontent.com/liyongying/JCHG/master/img/p'+data[i]+'.png" width="100px" data-position="'+(Number(i)+1) +'" draggable="true"/></li>'
+            html+='<li><img src="https://raw.githubusercontent.com/liyongying/JCHG/master/img/p'+data[i]+'.PNG" width="100px" data-position="'+(Number(i)+1) +'" draggable="true"/></li>'
         }
         $("ul").html(html);
     },
